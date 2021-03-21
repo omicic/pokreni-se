@@ -33,7 +33,7 @@ h4 {
 
 /***header***/
 header {
-    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(img/header.jpg);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -60,13 +60,12 @@ header {
 
 .navbar .navbar-nav {
     text-transform: uppercase;
-
+    padding-right: 10px;
 }
 
 .navbar .nav-link {
     color: var(--secondaryColor) !important;
     font-weight: 500;
-
 }
 
 .navbar .nav-link:hover {
@@ -74,12 +73,38 @@ header {
     color: var(--white) !important;
 }
 
-hgroup{
-   margin-top: 300px;
-   
+hgroup {
+    margin-top: 300px;
+
 }
+
+hgroup p {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 hgroup h1 {
     color: var(--secondaryColor);
     font-size: 4rem;
-    text-shadow: 3px 3px 3px var(--primaryColor),0 0 0.5em var(--primaryColor), 0 0 0.1em var(--primaryColor);
+    text-shadow: 3px 3px 3px var(--primaryColor), 0 0 0.5em var(--primaryColor), 0 0 0.1em var(--primaryColor);
+}
+
+/***about***/
+#about{
+    margin: 50px 0;
+    text-align: center;
+}
+#about h3{
+    font-size: 2rem;
+}
+#about p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#about hr{
+    width: 20%;
+    border: 1px solid var(--secondaryColor);
+    margin: 20px auto;
+
 }
