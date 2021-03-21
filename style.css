@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@300;400;700;900&display=swap');
+:root {
+    --bodyFont: 'Montserrat', sans-serif;
+    --secondaru-font: "Faster One", cursive;
+    --primaryColor: #272b34;
+    --secondaryColor: #8df48b;
+    --accents: #d85080;
+    --white: #fff;
+    --lightGray: #f1f1f1;
+    --font: 16px;
+    --textShadow: 5px 5px 20px var(--primaryColor);
+    --transition: .3s ease;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--font);
+    background: var(--primaryColor);
+}
+h1, h2, h3, h4 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/***navbar***/
+.navbar {
+    background: var(--primaryColor) !important;
+    border: none;
+    border-bottom: 2px solid var(--secondaryColor)!important;
+    padding: 0;
+}
+
+.navbar-brand {
+    background: var(--secondaryColor);
+    padding: 10px 30px;
+    font-family: var(--secondaru-font);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--primaryColor) im !important;
+}
+.navbar .navbar-nav {
+    text-transform: uppercase;
+    
+}
+
+.navbar .nav-link{
+color: var(--secondaryColor) !important; 
+font-weight: 500;
+
+}
+
+.navbar .nav-link:hover{
+    transition: var(--transition);
+    color: var(--white) !important; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
