@@ -31,6 +31,13 @@ h4 {
     width: 80%;
 }
 
+hr{
+    width: 15%;
+    border: 1px solid var(--secondaryColor);
+    margin: 20px auto;
+
+}
+
 /***header***/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(img/header.jpg);
@@ -102,9 +109,30 @@ hgroup h1 {
     font-size: 1.2rem;
 }
 
-#about hr{
+/* #about hr{
     width: 20%;
     border: 1px solid var(--secondaryColor);
     margin: 20px auto;
+} */
 
+/***teme***/
+#teme{
+    padding-top: 50px;
+    text-align: center;
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+}
+
+#teme hr{
+    border: 1px solid var(--primaryColor);
+
+}
+
+#teme i{
+    font-size: 3rem;
+    padding: 50px;
+    background: var(--primaryColor);
+    color: var(--secondaryColor);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    margin:30px 0;
 }
